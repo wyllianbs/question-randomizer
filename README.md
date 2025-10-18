@@ -192,7 +192,7 @@ O projeto utiliza Programação Orientada a Objetos com as seguintes classes:
 
 ![Gabarito](figs/caderno_prova_gabarito.png)
 
-> **Nota**: Os PDFs acima foram gerados usando o template [caderno_prova](https://github.com/wyllianbs/caderno_prova) com o arquivo `questions.tex` produzido por este randomizador.
+> **Nota**: Os PDFs acima foram gerados usando o código $\LaTeX$ Caderno de Prova, disponível em [https://github.com/wyllianbs/carderno_prova](https://github.com/wyllianbs/carderno_prova) com o arquivo `questions.tex` produzido pelo `question_randomizer.py`.
 
 
 ## 🔧 Integração com $\LaTeX$ 
