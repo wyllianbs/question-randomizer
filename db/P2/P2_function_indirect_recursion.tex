@@ -1,0 +1,24 @@
+\needspace{15\baselineskip} 
+\item \rtask \ponto{\pt} Considere o código Python a seguir.
+
+\begin{lstlisting}[style=Python]
+def ABC(L, n):
+    while True:
+        if len(L) >= n:
+            return L
+        else:
+            L.append(len(L) ** 2)
+
+print(ABC([20], 10))
+\end{lstlisting}
+
+O resultado da execução desse código é:
+
+\begin{answerlist}[label={\texttt{\Alph*}.},leftmargin=*]
+    \ti \lstinline[style=Python]|[1, 4, 9, 16, 25, 36, 49, 64]|.
+    \ti \lstinline[style=Python]|[1, 4, 9, 16, 25, 36, 49, 64, 81]|.
+    \ti \lstinline[style=Python]|[20, 1, 4, 9, 16, 25, 36, 49, 64]|.
+    \di \lstinline[style=Python]|[20, 1, 4, 9, 16, 25, 36, 49, 64, 81]|.
+    \ti \lstinline[style=Python]|[20, 4, 9, 16, 25, 36, 49, 64, 81]|.
+\end{answerlist}
+
