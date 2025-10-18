@@ -204,7 +204,7 @@ Para compilar o arquivo gerado e criar a prova final:
 git clone https://github.com/wyllianbs/caderno_prova.git
 ```
 
-2. Copie o arquivo `questions.tex` gerado para o diretório do template e o inclua no arquivo principal (_e.g._, `\input{questions.tex}` no arquivo `main.tex`) de compilação TeX.
+2. Copie o arquivo `questions.tex` gerado pelo `question_randomizer.py` para o diretório do template e o inclua no arquivo principal (_e.g._, `\input{questions.tex}` no arquivo `main.tex`) de compilação TeX.
 
 3. Compile com `pdflatex` ou `xelatex`:
 ```bash
