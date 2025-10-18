@@ -1,11 +1,11 @@
-# 🎲 Randomizador de Questões $\LaTeX$ - Question Randomizer
+# 🎲 Randomizador de Questões $\LaTeX$ -- Question Randomizer
 
 Código em Python para randomizar questões de provas em formato $\LaTeX$, com suporte a questões de múltipla escolha e questões de verdadeiro ou falso.
 
 
 ## 📋 Descrição
 
-Este código permite selecionar aleatoriamente questões de um banco de dados (contendo arquivos `.tex`) e gera um arquivo de saída com as questões uniformemente randomizadas. Para questões de múltipla escolha, as alternativas são embaralhadas automaticamente, mantendo a integridade do gabarito.
+Este código permite selecionar aleatoriamente questões de um banco de dados (contendo arquivos `.tex`) e gera um arquivo de saída com as questões uniformemente randomizadas. Para questões de múltipla escolha, as alternativas são embaralhadas automaticamente.
 
 O sistema foi projetado para funcionar em conjunto com o Código LaTeX Para Provas Com Gabarito, disponível em [https://github.com/wyllianbs/carderno_prova](https://github.com/wyllianbs/carderno_prova), o qual permite gerar provas formatadas com gabarito.
 
@@ -27,10 +27,15 @@ O sistema foi projetado para funcionar em conjunto com o Código LaTeX Para Prov
 .
 ├── question_randomizer.py     # Script principal
 ├── db/                        # Diretório com banco de questões (.tex)
-│   ├── P1_mutability.tex
-│   ├── P1_Python3.tex
-│   ├── P2_arrays_list.tex
-│   └── ...
+│   ├── P1
+│   │   ├── P1_mutability.tex
+│   │   ├── P1_Python3.tex
+│   │   └── P1_while.tex
+│   └── P2
+│       ├── P2_arrays_dict.tex
+│       ├── P2_arrays_general.tex
+│       ├── ... 
+│       └── P2_strings.tex
 ├── samples/                   # Exemplos de saída
 │   ├── caderno_prova.pdf
 │   └── caderno_prova_gabarito.pdf
@@ -84,40 +89,43 @@ Nome/path do arquivo de saída [default: questions.tex]:
 Diretório contendo as questões [default: ./db]: 
 
 ------------------------------------------------------------
-Carregando questões...
+📚 Carregando questões...
 
-P1_Python3.tex - 1 questões
-P1_mutability.tex - 1 questões
-P1_while.tex - 1 questões
-P2_arrays_dict.tex - 1 questões
-P2_arrays_general.tex - 1 questões
-P2_arrays_list.tex - 1 questões
-P2_arrays_tuple.tex - 1 questões
-P2_function_direct_recursion.tex - 1 questões
-P2_function_indirect_recursion.tex - 1 questões
-P2_function_lambda.tex - 1 questões
-P2_functions.tex - 1 questões
-P2_strings.tex - 1 questões
+📂 Buscando em: /media/data/Work/UFSC/Atividades/Pesquisa/Coding/Random_Questions/db
 
-Total de questões disponíveis: 12
+  ✓ P1/P1_Python3.tex                        - 1 questões
+  ✓ P1/P1_mutability.tex                     - 1 questões
+  ✓ P1/P1_while.tex                          - 1 questões
+  ✓ P2/P2_arrays_dict.tex                    - 1 questões
+  ✓ P2/P2_arrays_general.tex                 - 1 questões
+  ✓ P2/P2_arrays_list.tex                    - 1 questões
+  ✓ P2/P2_arrays_tuple.tex                   - 1 questões
+  ✓ P2/P2_function_direct_recursion.tex      - 1 questões
+  ✓ P2/P2_function_indirect_recursion.tex    - 1 questões
+  ✓ P2/P2_function_lambda.tex                - 1 questões
+  ✓ P2/P2_functions.tex                      - 1 questões
+  ✓ P2/P2_strings.tex                        - 1 questões
+
+💡 Total de questões disponíveis: 12
 ------------------------------------------------------------
 
 Número total de questões a selecionar [default: 10; disponível: 12]: 8
 
 ------------------------------------------------------------
-Configuração:
+⚙  Configuração:
   Arquivo de saída: questions.tex
   Diretório: db
   Questões a selecionar: 8
 ------------------------------------------------------------
 
-Selecionando questões...
+🔀 Selecionando questões...
 
-Total de arquivos: 12
-Total de questões disponíveis: 12
-Questões a selecionar: 8
+📊 Estatísticas:
+  Total de arquivos: 12
+  Total de questões disponíveis: 12
+  Questões a selecionar: 8
 
-Processando questões (randomizando alternativas)...
+⚙  Processando questões (randomizando alternativas)...
 
 ✓ Arquivo 'questions.tex' gerado com sucesso!
   Total de questões: 8
