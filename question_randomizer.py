@@ -113,7 +113,9 @@ class QuestionFile:
         return len(self.questions)
 
     def __repr__(self) -> str:
-        return f"QuestionFile('{self.filename}', {self.get_question_count()} questões)"
+        count: int = self.get_question_count()
+        question_word: str = "questão" if count == 1 else "questões"
+        return f"QuestionFile('{self.filename}', {count} {question_word})"
 
 
 class QuestionDatabase:
@@ -150,7 +152,9 @@ class QuestionDatabase:
 
                     # Exibe o caminho relativo para melhor visualização
                     display_path: str = str(qf.relative_path)
-                    print(f"  ✓ {display_path:<40} - {qf.get_question_count()} questões")
+                    count: int = qf.get_question_count()
+                    question_word: str = "questão" if count == 1 else "questões"
+                    print(f"  ✓ {display_path:<40} - {count} {question_word}")
             except Exception as e:
                 print(f"  ✗ Erro ao processar {tex_file.name}: {e}")
 
@@ -244,7 +248,9 @@ class OutputWriter:
                 f.write('\n\n\n')
 
         print(f"\n✓ Arquivo '{self.output_file}' gerado com sucesso!")
-        print(f"  Total de questões: {len(questions)}")
+        count: int = len(questions)
+        question_word: str = "questão" if count == 1 else "questões"
+        print(f"  Total de {question_word}: {count}")
 
 
 class UserInterface:

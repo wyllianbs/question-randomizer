@@ -93,18 +93,18 @@ Diretório contendo as questões [default: ./db]:
 
 📂 Buscando em: /media/data/Work/UFSC/Atividades/Pesquisa/Coding/Random_Questions/db
 
-  ✓ P1/P1_Python3.tex                        - 1 questões
-  ✓ P1/P1_mutability.tex                     - 1 questões
-  ✓ P1/P1_while.tex                          - 1 questões
-  ✓ P2/P2_arrays_dict.tex                    - 1 questões
-  ✓ P2/P2_arrays_general.tex                 - 1 questões
-  ✓ P2/P2_arrays_list.tex                    - 1 questões
-  ✓ P2/P2_arrays_tuple.tex                   - 1 questões
-  ✓ P2/P2_function_direct_recursion.tex      - 1 questões
-  ✓ P2/P2_function_indirect_recursion.tex    - 1 questões
-  ✓ P2/P2_function_lambda.tex                - 1 questões
-  ✓ P2/P2_functions.tex                      - 1 questões
-  ✓ P2/P2_strings.tex                        - 1 questões
+  ✓ P1/P1_Python3.tex                        - 1 questão
+  ✓ P1/P1_mutability.tex                     - 1 questão
+  ✓ P1/P1_while.tex                          - 1 questão
+  ✓ P2/P2_arrays_dict.tex                    - 1 questão
+  ✓ P2/P2_arrays_general.tex                 - 1 questão
+  ✓ P2/P2_arrays_list.tex                    - 1 questão
+  ✓ P2/P2_arrays_tuple.tex                   - 1 questão
+  ✓ P2/P2_function_direct_recursion.tex      - 1 questão
+  ✓ P2/P2_function_indirect_recursion.tex    - 1 questão
+  ✓ P2/P2_function_lambda.tex                - 1 questão
+  ✓ P2/P2_functions.tex                      - 1 questão
+  ✓ P2/P2_strings.tex                        - 1 questão
 
 💡 Total de questões disponíveis: 12
 ------------------------------------------------------------
