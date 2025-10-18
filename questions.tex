@@ -1,0 +1,166 @@
+\needspace{6\baselineskip} 
+\item \rtask \ponto{\pt} Na linguagem Python, são consideradas sequências mutáveis as
+
+\begin{answerlist}[label={\texttt{\Alph*}.},leftmargin=*]
+    \ti tuplas.
+    \ti cadeias.
+    \ti \textit{strings}.
+    \di listas. % gabarito
+    \ti \textit{ranges}.
+\end{answerlist}
+
+
+\needspace{6\baselineskip} 
+\item \rtask \ponto{\pt} Analise o código Python a seguir.
+
+\begin{lstlisting}[style=Python]
+x = [1,2,3,4,5]
+print (x[::-1])
+\end{lstlisting}
+
+Assinale a opção que indica a saída produzida pela execução desse código.
+
+\begin{answerlist}[label={\texttt{\Alph*}.},leftmargin=*]
+    \ti \lstinline[style=Python]|1|.
+    \ti \lstinline[style=Python]|5|.
+    \di \lstinline[style=Python]|[5,4,3,2,1]|. % gabarito
+    \ti \lstinline[style=Python]|[5,1]|.
+    \ti \lstinline[style=Python]|[1,2,3,4,5]|.
+\end{answerlist}
+
+
+\needspace{26\baselineskip} 
+\item \rtask \ponto{\pt} Considere o seguinte código em Python:
+
+\begin{lstlisting}[style=Python]
+M = {
+    "A": "B",
+    "C": True,
+    "D": 582,
+    "E": ["A", "E", "I", "O", "U"],
+    "F": {
+        "A": "B",
+        "E": ["R", "T", "S", "M", "L"],
+        "D": 386
+    }
+}
+
+def Fun(var1=M):
+    var2 = var1["D"]
+    return var1["E"][2] + var1["A"] + f"{var2}"
+
+p = Fun(M["F"])
+q = Fun()
+print(p + "-" + q)
+\end{lstlisting}
+
+Qual é a saída correta desse código?
+
+\begin{answerlist}[label={\texttt{\Alph*}.},leftmargin=*]
+    \ti \lstinline[style=Python]|IB386-SB582|.
+    \ti \lstinline[style=Python]|IB582-SB386|.
+    \di \lstinline[style=Python]|SB386-IB582|. % gabarito
+    \ti \lstinline[style=Python]|SB386-SB386|.
+    \ti \lstinline[style=Python]|TB386-IB582|.
+\end{answerlist}
+
+
+\needspace{15\baselineskip} 
+\item \rtask \ponto{\pt} Considere o código Python a seguir.
+
+\begin{lstlisting}[style=Python]
+def ABC(L, n):
+    while True:
+        if len(L) >= n:
+            return L
+        else:
+            L.append(len(L) ** 2)
+
+print(ABC([20], 10))
+\end{lstlisting}
+
+O resultado da execução desse código é:
+
+\begin{answerlist}[label={\texttt{\Alph*}.},leftmargin=*]
+    \ti \lstinline[style=Python]|[1, 4, 9, 16, 25, 36, 49, 64]|.
+    \ti \lstinline[style=Python]|[20, 4, 9, 16, 25, 36, 49, 64, 81]|.
+    \ti \lstinline[style=Python]|[1, 4, 9, 16, 25, 36, 49, 64, 81]|.
+    \di \lstinline[style=Python]|[20, 1, 4, 9, 16, 25, 36, 49, 64, 81]|.
+    \ti \lstinline[style=Python]|[20, 1, 4, 9, 16, 25, 36, 49, 64]|.
+\end{answerlist}
+
+
+\needspace{22\baselineskip} 
+\item \rtask \ponto{\pt} A linguagem Python é de propósito geral, pois possui tipagem dinâmica e uma de suas principais características é permitir a fácil leitura do código fonte e exigir poucas linhas de código se comparado ao mesmo programa em outras linguagens. Considere o programa a seguir, que ilustra a criação e execução de um algoritmo desenvolvido em Python.
+
+\begin{lstlisting}[style=Python]
+a = 15
+i = 1
+soma = 0
+resultado = 0
+while i <= 6:
+    resultado = a % i
+    soma = soma + resultado
+    i = i+1
+print(soma)
+\end{lstlisting}
+
+Assinale a alternativa correta para o valor que será impresso ao final da execução do algoritmo.
+
+\begin{answerlist}[label={\texttt{\Alph*}.},leftmargin=*]
+    \di \lstinline[style=Python]|7|. % gabarito
+    \ti \lstinline[style=Python]|5|.
+    \ti \lstinline[style=Python]|6|.
+    \ti \lstinline[style=Python]|12|.
+    \ti \lstinline[style=Python]|4|.
+\end{answerlist}
+
+
+\needspace{13\baselineskip} 
+\item \rtask \ponto{\pt} No Python, funções são blocos de código identificados por um nome, que podem receber parâmetros predeterminados. Em relação às observações a serem consideradas na execução funções, está incorreta a seguinte afirmação:
+
+\begin{answerlist}[label={\texttt{\Alph*}.},leftmargin=*]
+    \di Os argumentos passados sem identificador são recebidos pela função na forma de um dicionário.
+    \ti os argumentos com padrão devem vir por último, depois dos argumentos sem padrão.
+    \ti os parâmetros passados com identificador na chamada da função devem vir no fim da lista de parâmetros.
+    \ti Aceitam \textit{Doc Strings}.
+    \ti o valor do padrão para um parâmetro é calculado quando a função é definida.
+\end{answerlist}
+
+
+\needspace{8\baselineskip} 
+\item \rtask \ponto{\pt} Assinale a opção abaixo que contém SOMENTE informações CORRETAS    .
+
+\begin{answerlist}[label={\texttt{\Alph*}.},leftmargin=*]
+    \di Dicionários em Python 3 preservam a ordem de inserção.
+    \ti \lstinline[style=Python]|count(d)| retorna o número de elementos do \lstinline[style=Python]|dict| \lstinline[style=Python]|d|.
+    \ti Utiliza-se \lstinline[style=Python]|array.add(x)| para adicionar \lstinline[style=Python]|x| a \textit{array}.
+    \ti Python 3 possui retrocompatibilidade total com Python 2.
+    \ti Python 3 não é compatível com cadeias de caracteres (\textit{strings}) Unicode.
+\end{answerlist}
+
+
+\needspace{16\baselineskip} 
+\item \rtask \ponto{\pt} Considere o seguinte trecho de código na linguagem Python:
+
+\begin{lstlisting}[style=Python]
+def f(n):
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
+    if n > 1:
+        return f(n-1) * n
+\end{lstlisting}
+
+Ao chamar a função \lstinline[style=Python]|f|, passando-se como parâmetro o valor \lstinline[style=Python]|6|, o resultado esperado é:
+
+\begin{answerlist}[label={\texttt{\Alph*}.},leftmargin=*]
+    \ti Obtenção de um erro, uma vez que a função é chamada indefinidamente dentro dela mesma.
+    \ti \lstinline[style=Python]|360|.
+    \ti \lstinline[style=Python]|120|.
+    \ti \lstinline[style=Python]|480|.
+    \di \lstinline[style=Python]|720|.
+\end{answerlist}
+
+

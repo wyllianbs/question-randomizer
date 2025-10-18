@@ -1,0 +1,22 @@
+\needspace{14\baselineskip} 
+\item \rtask \ponto{\pt} Observe o código em Python a seguir.
+
+\begin{lstlisting}[style=Python]
+seq = 'AUUCCUUCTGG'
+seq = seq.replace('A', 'G')
+seq = seq.replace('U', 'T')
+G = seq.count('G')
+C = seq.count('C')
+T = seq.count('T')
+print(G, C, T)
+\end{lstlisting}
+
+Após a execução do código, o resultado impresso na tela será
+
+\begin{answerlist}[label={\texttt{\Alph*}.},leftmargin=*]
+    \ti \lstinline[style=Python]|G, C, T|.
+    \ti \lstinline[style=Python]|3, 3, 5|.
+    \ti \lstinline[style=Python]|G C T|.
+    \di \lstinline[style=Python]|3 3 5|. % gabarito
+    \ti \lstinline[style=Python]|5, 3, 3|.
+\end{answerlist}
