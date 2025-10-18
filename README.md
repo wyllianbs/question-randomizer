@@ -1,4 +1,4 @@
-# 🎲 Randomizador de Questões $\LaTeX$ -- Question Randomizer
+# 🎲 Randomizador de Questões $\LaTeX$ - Question Randomizer
 
 Código em Python para randomizar questões de provas em formato $\LaTeX$, com suporte a questões de múltipla escolha e questões de verdadeiro ou falso.
 
