@@ -169,7 +169,7 @@ Exemplo com 12 arquivos e 31 questões totais:
 - Arquivo com 10 questões → selecionará ~3 questões.
 - Arquivo com 1 questão → selecionará 1 questão.
 - Arquivo com 2 questões → selecionará 1 questão.
-...
+- ...
 
 
 ## 🏗️ Arquitetura (POO)
