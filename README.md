@@ -165,12 +165,6 @@ O algoritmo de seleção implementa uma **distribuição uniforme inteligente**:
 - **Se `num_questões ≤ num_arquivos`**: Seleciona no máximo 1 questão por arquivo, garantindo diversidade de questões aleatoriamente escolhidas.
 - **Se `num_questões > num_arquivos`**: Distribui proporcionalmente baseado no número de questões de cada arquivo.
 
-Exemplo com 12 arquivos e 31 questões totais:
-- Arquivo com 10 questões → selecionará ~3 questões.
-- Arquivo com 1 questão → selecionará 1 questão.
-- Arquivo com 2 questões → selecionará 1 questão.
-- ...
-
 
 ## 🏗️ Arquitetura (POO)
 
