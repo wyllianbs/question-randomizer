@@ -7,7 +7,7 @@ Código em Python para randomizar questões de provas em formato $\LaTeX$, com s
 
 Este código permite selecionar aleatoriamente questões de um banco de dados (contendo arquivos `.tex`) e gera um arquivo de saída com as questões uniformemente randomizadas. Para questões de múltipla escolha, as alternativas são embaralhadas automaticamente, mantendo a integridade do gabarito.
 
-O sistema foi projetado para funcionar em conjunto com o template $\LaTeX$ Caderno de Prova, disponível em [https://github.com/wyllianbs/carderno_prova](https://github.com/wyllianbs/carderno_prova), o qual permite gerar provas formatadas com gabarito.
+O sistema foi projetado para funcionar em conjunto com o código $\LaTeX$ Caderno de Prova, disponível em [https://github.com/wyllianbs/carderno_prova](https://github.com/wyllianbs/carderno_prova), o qual permite gerar provas formatadas com gabarito.
 
 
 ## ✨ Características
