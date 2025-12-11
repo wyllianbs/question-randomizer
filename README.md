@@ -233,6 +233,7 @@ O programa valida:
 
 Este projeto está licenciado sob a Licença [GNU General Public License v3.0](LICENSE).
 
+
 ## 👤 Autor
 
 **Prof. Wyllian Bezerra da Silva**
