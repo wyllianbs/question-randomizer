@@ -237,7 +237,7 @@ Este projeto está licenciado sob a Licença [GNU General Public License v3.0](L
 
 **Prof. Wyllian Bezerra da Silva**
 **Universidade Federal de Santa Catarina (UFSC)**
-**Departamento de Informática e Estatística (INE) 
+**Departamento de Informática e Estatística (INE)**
 
 ---
 
